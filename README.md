@@ -119,6 +119,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-### 👀 Want to learn more?
+### Indexing
 
-Feel free to check out the [Astro documentation](https://docs.astro.build).
+The website is excluded from web search engine indexing temporarily in the robots.txt file:
+User-agent: *
+Disallow: /
+
+When you are ready to release the site for indexing, you can update the robots.txt file to allow indexing:
+User-agent: *
+Disallow:
+
+This will allow all web crawlers to index your site.

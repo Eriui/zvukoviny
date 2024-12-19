@@ -13,7 +13,7 @@ const t = useTranslations(currLocale);
 ---
 
 <section
-  id="hero2"
+  id="hero"
   class="relative flex w-full overflow-hidden pb-28 pt-32 md:pb-36 md:pt-40"
 >
   <!-- background glow -->
@@ -52,21 +52,22 @@ const t = useTranslations(currLocale);
 
     <!-- Hero text -->
     <h1
-      class="bg-gradient-to-r from-base-900 to-base-600/90 bg-clip-text pb-4 text-5xl font-medium text-transparent md:text-6xl dark:from-base-100 dark:to-base-400/90"
+      class="pb-4 text-5xl md:text-6xl font-medium 
+      from-base-900 to-base-600/90 bg-gradient-to-r bg-clip-text text-transparent 
+      dark:from-base-100 dark:to-base-400/90"
       data-aos="fade-up"
     >
-      Obsah k poslechu
+    {t("hero_title")}
     </h1>
     <p
-      class="description mx-auto mt-2 max-w-sm sm:max-w-md md:max-w-lg"
+      class="text-xl md:text-2xl mx-auto mt-2 max-w-sm sm:max-w-md md:max-w-lg
+      from-base-900 to-base-600/90 bg-gradient-to-r bg-clip-text text-transparent 
+      dark:from-base-100 dark:to-base-400/90"
       data-aos="fade-up"
       data-aos-delay="0.2"
-      data-aos-trigger="#hero2"
+      data-aos-trigger="#hero"
     >
       {t("hero_description")}
-      <!-- Get your SaaS landing page and blog running in a snap. Save time with
-      multiple pre-designed pages, sections, and components. Built with Astro
-      and Tailwind CSS. -->
     </p>
 
     <!-- CTA 

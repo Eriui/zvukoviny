@@ -52,11 +52,13 @@ export const dataTranslations = {
  */
 export const textTranslations = {
   en: {
-    hero_description: `Tady je běžný vizuální svět přiblížený ostatním smyslům – návody a tipy zejména těm, kdo se nespoléhají na zrak.`,
+    hero_title: `Pastva pro uši`,
+    hero_description: `Přibližujeme vizuální svět těm, kdo spoléhají na ostatní smysly.`,
     back_to_all_posts: "Back to all posts",
     updated: "Updated",
   },
   fr: {
+    hero_title: `Pastva pro uši`,
     hero_description:
       "Je ne parle pas vraiment français donc j'utilise Google Translate pour quelques parties de cette démo.",
     back_to_all_posts: "Retour à tous les articles",

@@ -56,8 +56,7 @@ module.exports = {
     },
     fontFamily: {
       sans: [
-        "Inter",
-        "Satoshi",
+        "Lexend",
         "-apple-system",
         "BlinkMacSystemFont",
         "Segoe UI",
@@ -78,7 +77,7 @@ module.exports = {
         "Courier New",
         "monospace",
       ],
-    },
+    },   
   },
   plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };

@@ -7,7 +7,7 @@
 }
 
 .button--primary {
-  @apply bg-gradient-to-b from-primary-400 via-primary-500 to-primary-600 text-white transition-none;
+  @apply bg-gradient-to-b from-primary-400 via-primary-700 to-primary-800 text-white transition-none;
   @apply hover:to-primary-700;
   @apply focus-visible:ring-2 focus-visible:ring-primary-500 focus-visible:ring-offset-2;
 }

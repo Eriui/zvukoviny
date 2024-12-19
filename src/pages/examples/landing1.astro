@@ -7,10 +7,11 @@ import BaseHead from "@layouts/BaseHead.astro";
 import BaseLayout from "@layouts/BaseLayout.astro";
 
 // components
-import Hero from "@components/Hero/Hero.astro";
-
-import LogoCloud from "@components/LogoCloud/LogoCloud1.astro";
-
+import Hero1 from "@components/Hero/Hero1.astro";
+import Hero2 from "@components/Hero/Hero2.astro";
+import Hero3 from "@components/Hero/Hero3.astro";
+import LogoCloud1 from "@components/LogoCloud/LogoCloud1.astro";
+import LogoCloud2 from "@components/LogoCloud/LogoCloud2.astro";
 import Feature1 from "@components/Feature/Feature1.astro";
 import Feature2 from "@components/Feature/Feature2.astro";
 import Feature3 from "@components/Feature/Feature3.astro";
@@ -48,8 +49,8 @@ const siteData = getTranslatedData("siteData", currLocale);
 ---
 
 <BaseLayout title={siteData.title} description={siteData.description}>
-  <Hero />
-  <LogoCloud />
+  <Hero1 />
+  <LogoCloud2 />
   <Feature6 />
   <Feature1 />
   <Feature4 />

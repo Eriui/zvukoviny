@@ -20,7 +20,7 @@ module.exports = {
       colors: {
         // use any standard tailwind colors from here https://tailwindcss.com/docs/customizing-colors
         // or generate with https://uicolors.app/create
-        primary: colors.violet,
+        primary: colors.indigo,
         base: colors.zinc,
         info: "#7dd3fc",
         "info-content": "#082f49",

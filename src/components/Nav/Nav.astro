@@ -41,7 +41,7 @@ import { locales } from "@config/siteSettings.json";
         <!-- desktop nav menu -->
         <div>
           <div class="flex h-full flex-auto justify-end">
-            <nav class="hidden md:block">
+            <!-- <nav class="hidden md:block">
               <ul class="flex h-full items-center">
                 {
                   // if dropdown exists, setup the dropdown, otherwise it is just a link
@@ -58,10 +58,10 @@ import { locales } from "@config/siteSettings.json";
                   )
                 }
               </ul>
-            </nav>
+            </nav> -->
             <div class="hidden items-center gap-1 md:flex">
               <ThemeToggle />
-              <Button
+              <!-- <Button
                 variant="ghost"
                 href={getRelativeLocaleUrl(currLocale, "/login")}
                 class="whitespace-nowrap"
@@ -75,12 +75,12 @@ import { locales } from "@config/siteSettings.json";
               >
 
               {locales.length > 1 && <LanguageSelect class="ml-2" />}
-            </div>
+            </div> -->
 
-            <!-- mobile nav menu, only load on small screens where it is visible -->
+            <!-- mobile nav menu, only load on small screens where it is visible 
             <div class="flex items-center md:hidden">
               <MobileNav />
-            </div>
+            </div>-->
           </div>
         </div>
       </header>

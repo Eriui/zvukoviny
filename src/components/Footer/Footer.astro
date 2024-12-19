@@ -24,7 +24,7 @@ const today = new Date();
     >
       <div class="mt-6 flex flex-col items-start gap-2">
         <SiteLogo />
-        <p>Sign up for our newsletter</p>
+        <!-- <p>Sign up for our newsletter</p>
         <form
           id="newsletter-form"
           name="newsletter-form"
@@ -45,7 +45,7 @@ const today = new Date();
           />
 
           <Button variant="primary" type="submit">Subscribe</Button>
-        </form>
+        </form> -->
       </div>
       <div class="grid grid-cols-2 gap-4 md:grid-cols-3">
         <!-- Navigation -->
@@ -60,15 +60,13 @@ const today = new Date();
           <FooterLink href={getRelativeLocaleUrl(currLocale, "/about")}
             >About</FooterLink
           >
-          <FooterLink href={getRelativeLocaleUrl(currLocale, "/contact")}
-            >Contact</FooterLink
-          >
+          
         </div>
 
-        <!-- Legal -->
+        <!-- Legal  -->
         <div class="flex flex-col">
           <h3 class="mb-2 mt-6 text-lg font-semibold">Legal</h3>
-          <FooterLink href="https://cosmicthemes.com/license/" newTab={true}>
+          <!-- <FooterLink href="https://cosmicthemes.com/license/" newTab={true}>
             License
           </FooterLink>
           <FooterLink href="https://cosmicthemes.com/refund/" newTab={true}>
@@ -76,16 +74,22 @@ const today = new Date();
           </FooterLink>
           <FooterLink href="https://cosmicthemes.com/terms/" newTab={true}>
             Terms of use
-          </FooterLink>
-          <FooterLink href="https://cosmicthemes.com/privacy/" newTab={true}>
+          </FooterLink> -->
+          <FooterLink href={getRelativeLocaleUrl(currLocale, "/privacy-policy")} newTab={true}>
             Privacy policy
           </FooterLink>
-          <FooterLink href="https://cosmicthemes.com/support/" newTab={true}>
-            Support
+          <FooterLink href="https://cosmicthemes.com/privacy/" newTab={true}>
+            Impressum
           </FooterLink>
+          <!-- <FooterLink href="https://cosmicthemes.com/support/" newTab={true}>
+            Support
+          </FooterLink> -->
+          <FooterLink href={getRelativeLocaleUrl(currLocale, "/contact")}
+            >Contact</FooterLink
+          >
         </div>
 
-        <!-- In the Know -->
+        <!-- In the Know
         <div class="flex flex-col">
           <h3 class="mb-2 mt-6 text-lg font-semibold">In the Know</h3>
           <FooterLink href="https://twitter.com/BowTiedWebReapr" newTab={true}>
@@ -94,7 +98,7 @@ const today = new Date();
           <FooterLink href="https://twitter.com/Cosmic_Themes" newTab={true}>
             @Cosmic_Themes
           </FooterLink>
-        </div>
+        </div> -->
       </div>
     </div>
     <hr class="my-6 border-base-300 dark:border-base-600/60" />

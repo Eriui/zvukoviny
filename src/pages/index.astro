@@ -9,7 +9,7 @@ import BaseLayout from "@layouts/BaseLayout.astro";
 // components
 import Hero from "@components/Hero/Hero.astro";
 
-import LogoCloud from "@components/LogoCloud/LogoCloud1.astro";
+import Motto from "@components/LogoCloud/Motto.astro";
 
 import Feature1 from "@components/Feature/Feature1.astro";
 import Feature2 from "@components/Feature/Feature2.astro";
@@ -49,15 +49,15 @@ const siteData = getTranslatedData("siteData", currLocale);
 
 <BaseLayout title={siteData.title} description={siteData.description}>
   <Hero />
-  <LogoCloud />
-  <Feature6 />
-  <Feature1 />
+  <Motto />
+  <!-- <Feature6 />
+  <Feature1 />-->
   <Feature4 />
-  <Feature3 />
-  <FeatureCodeToggle />
+  <!-- <Feature3 />
+  <FeatureCodeToggle /> -->
   <Feature5 />
   <Testimonials1 />
-  <Pricing3 />
+  <!-- <Pricing3 /> -->
   <Faq1 />
-  <Cta2 />
+  <!-- <Cta2 /> -->
 </BaseLayout>

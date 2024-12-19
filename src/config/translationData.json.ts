@@ -52,7 +52,7 @@ export const dataTranslations = {
  */
 export const textTranslations = {
   en: {
-    hero_description: `A template for the next killer SaaS. Multiple pages and sections, blog, i18n, animations, CMS - all ready to go.`,
+    hero_description: `Tady je běžný vizuální svět přiblížený ostatním smyslům – návody a tipy zejména těm, kdo se nespoléhají na zrak.`,
     back_to_all_posts: "Back to all posts",
     updated: "Updated",
   },
